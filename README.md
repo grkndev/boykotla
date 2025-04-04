@@ -3,7 +3,8 @@
   <br />
   <div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
   <span>by</span>
-  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png" alt="Brand Logo" width="15%" />
+  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png#gh-dark-mode-only" alt="Brand Logo" width="15%" />
+  <img src="https://www.grkn.dev/assets/text/gdev_text_light.png#gh-light-mode-only" alt="Brand Logo" width="15%" />
   </div>
 </div>
 
@@ -83,5 +84,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
   <span>by</span>
-  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png" alt="Brand Logo" width="15%" />
-  </div>
+  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png#gh-dark-mode-only" alt="Brand Logo" width="15%" />
+  <img src="https://www.grkn.dev/assets/text/gdev_text_light.png#gh-light-mode-only" alt="Brand Logo" width="15%" />
+</div>

@@ -1,12 +1,10 @@
 <div align="center">
   <img src="https://boykot.grkn.dev/slogan.svg" alt="Boykotla Slogan" width="40%" />
   <br />
-  <div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
-  <span>by</span>
-  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png#gh-dark-mode-only" alt="Brand Logo" width="15%" />
-  <img src="https://www.grkn.dev/assets/text/gdev_text_light.png#gh-light-mode-only" alt="Brand Logo" width="15%" />
-  </div>
+  
 </div>
+
+  ![GrknDev-Mark-Light](https://www.grkn.dev/assets/text/gdev_text_light.png#gh-dark-mode-only)![GrknDev-Mark-Dark](https://www.grkn.dev/assets/text/gdev_text_dark.png#gh-light-mode-only)
 
 # Boykotla / Boycott Tracker
 
@@ -82,11 +80,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-<div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
-  <span>by</span>
- ![GitHub-Mark-Light](https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-dark-mode-only)![GitHub-Mark-Dark](https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only)
 
+  ![GrknDev-Mark-Light](https://www.grkn.dev/assets/text/gdev_text_light.png#gh-dark-mode-only)![GrknDev-Mark-Dark](https://www.grkn.dev/assets/text/gdev_text_dark.png#gh-light-mode-only)
 
-
-  
-</div>

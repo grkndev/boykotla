@@ -63,7 +63,7 @@ const TabBarComponent = ({ state, descriptors, navigation }: BottomTabBarProps) 
                                 'text-xs',
                                 currentRoute === 'info' ? ' font-bold text-black' : 'text-black/50'
                             )
-                        }>Mahalle</Text>
+                        }>Bilgi</Text>
                 </TouchableOpacity>
 
                 {/* BRANDS */}

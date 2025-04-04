@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+<div align="center">
+  <img src="https://boykot.grkn.dev/slogan.svg" alt="Boykotla Slogan" width="40%" />
+  <br />
+  <div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
+  <span>by</span>
+  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png" alt="Brand Logo" width="15%" />
+  </div>
+</div>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Boykotla / Boycott Tracker
 
-## Get started
+## 🇹🇷 Türkçe
 
-1. Install dependencies
+### Boykotun Önemi
 
-   ```bash
-   npm install
-   ```
+Boykot, toplumsal ve politik değişim için güçlü bir ekonomik direniş aracıdır. Vatandaşlar olarak, alışveriş tercihlerimiz ve harcama kararlarımız aracılığıyla sesimizi duyurabilir, adaletsizliklere karşı durabilir ve değişim talep edebiliriz. Ekonomik gücümüzü birleştirerek, büyük şirketlerin ve kurumların politikalarını ve uygulamalarını etkileyebiliriz.
 
-2. Start the app
+### Uygulama Hakkında
 
-   ```bash
-    npx expo start
-   ```
+Boykotla, Türkiye'deki boykot hareketlerini takip etmenize ve desteklemenize yardımcı olan açık kaynaklı bir mobil uygulamadır. Uygulama:
 
-In the output, you'll find options to open the app in a
+- Aktif boykot günlerini takip etmenizi sağlar
+- Boykot edilen markaların güncel listesini sunar
+- Topluluk destekli ve şeffaf bilgi sağlar
+- Türkiye'deki ekonomik direniş hareketlerini destekler
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Açık Kaynak Projesi
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Bu uygulama, topluluk katkılarına açık bir projedir. Kodumuz tamamen açık kaynaklıdır ve herkesin incelemesine, geliştirmesine ve katkıda bulunmasına açıktır. Şeffaflık ve güven bizim için önemlidir.
 
-## Get a fresh project
+### Teknik Bilgiler
 
-When you're ready, run:
+- **Yazılım Stack**: React Native, Expo
+- **Programlama Dili**: TypeScript
+- **Arayüz**: NativeWind (Tailwind CSS)
+- **Veri Yönetimi**: TanStack Query (React Query)
+- **Dağıtım Platformları**: iOS, Android
+
+## 🇬🇧 English
+
+### The Importance of Boycotts
+
+Boycotts are powerful tools of economic resistance for social and political change. As citizens, we can make our voices heard through our shopping preferences and spending decisions, standing against injustices and demanding change. By combining our economic power, we can influence the policies and practices of large corporations and institutions.
+
+### About the Application
+
+Boycott Tracker is an open-source mobile application that helps you track and support boycott movements in Turkey. The application:
+
+- Allows you to keep track of active boycott days
+- Provides an up-to-date list of boycotted brands
+- Offers community-supported and transparent information
+- Supports economic resistance movements in Turkey
+
+### Open Source Project
+
+This application is a community-driven project. Our code is completely open source and available for anyone to review, develop, and contribute to. Transparency and trust are important to us.
+
+### Technical Information
+
+- **Software Stack**: React Native, Expo
+- **Programming Language**: TypeScript
+- **Interface**: NativeWind (Tailwind CSS)
+- **Data Management**: TanStack Query (React Query)
+- **Distribution Platforms**: iOS, Android
+
+## Getting Started
 
 ```bash
-npm run reset-project
+# Install dependencies
+npm install
+
+# Start the development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
 
-## Learn more
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div style="display:flex; flex-direction: column; align-items:center; gap: 4px;" align="center">
+  <span>by</span>
+  <img src="https://www.grkn.dev/assets/text/gdev_text_dark.png" alt="Brand Logo" width="15%" />
+  </div>

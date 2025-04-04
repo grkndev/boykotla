@@ -5,6 +5,7 @@ import { Link } from 'expo-router'
 import Icons from '@/components/Icons'
 import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
+import Header from '@/components/Header'
 export default function HomeScreen() {
   const { data: date, isLoading, error } = useQuery({
     queryKey: ['date'],
@@ -42,10 +43,7 @@ export default function HomeScreen() {
   if (date.nextDate === date.today)
     return (
       <View className='flex-1 bg-bg py-4 flex flex-col gap-4'>
-        <View className='flex flex-col items-center justify-center gap-2 border-b border-black/10 pb-4'>
-          <Text className='text-xl'>özgürlüğün için</Text>
-          <Text className='text-5xl text-red-500' varriant='bold'>Boykotla!</Text>
-        </View>
+        <Header />
         <View className='flex-1 items-center justify-center gap-4 px-4'>
           <View className='flex flex-col items-center justify-center gap-4'>
             <Icons name='Ban' width={150} height={150} color='#FB2C36' />
@@ -68,10 +66,7 @@ export default function HomeScreen() {
   else
     return (
       <View className='flex-1 bg-bg py-4 flex flex-col gap-4'>
-        <View className='flex flex-col items-center justify-center gap-2 border-b border-black/10 pb-4'>
-          <Text className='text-xl'>özgürlüğün için</Text>
-          <Text className='text-5xl text-red-500' varriant='bold'>Boykotla!</Text>
-        </View>
+        <Header />
         <View className='flex items-center justify-center gap-4 px-4'>
           <Image source={require('@/assets/images/KOL.png')}
             className='size-80'

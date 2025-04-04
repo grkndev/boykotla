@@ -7,6 +7,7 @@ export default function Text(
 ) {
     return (
         <RNText style={{
+            minHeight: 24,
             fontFamily:
                 varriant === 'bold'
                     ? 'SourGummy_700Bold'

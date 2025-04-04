@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs'
 import Icons from '../Icons'
 import { cn } from '@/utils/utils'
-import Text from '@/components/ui/Text'
+import Text from '@/components/ui/text'
 
 const TabBarComponent = ({ state, descriptors, navigation }: BottomTabBarProps) => {
     const [isKeyboardVisible, setKeyboardVisible] = useState(false);

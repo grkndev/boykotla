@@ -9,13 +9,20 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gweepcreative.boykotla",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": ["remote-notification"]
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FCDCAD"
-      }
+      },
+      "package": "com.gweepcreative.boykotla",
+      "permissions": ["RECEIVE_BOOT_COMPLETED", "SCHEDULE_EXACT_ALARM", "USE_EXACT_ALARM"]
     },
     "web": {
       "bundler": "metro",
@@ -40,6 +47,13 @@
             "node_modules/@expo-google-fonts/sour-gummy/700Bold/SourGummy_700Bold.ttf"
           ]
         }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#FF6B00"
+        }
       ]
     ],
     "experiments": {
@@ -48,6 +62,9 @@
     "extra": {
       "router": {
         "origin": "https://boykotla.expo.app"
+      },
+      "eas": {
+        "projectId": "059aa301-7a73-4659-b0f8-2500499fee8c"
       }
     }
   }
